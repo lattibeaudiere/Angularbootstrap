@@ -1,0 +1,44 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+    padding-top: 5rem;
+    background-image: url("pinel.png");
+    background-repeat: no-repeat; 
+    background-position: 140px 100px;
+    background-attachment: fixed; 
+  }
+  .lead {
+    padding-bottom: 200px;
+  }
+  p{
+    color: white;
+  }
+  h1{
+    color: white;
+  }
+  .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  /* .about{
+    opacity: 0.85;
+  } */
+  .panel{
+    border-color: #f0ad4e;
+    color: white;
+    background-color: #070707;
+  }
+  .panel-body {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  .panel-heading {
+    color: #d9534f;
+    background: white;
+    border-style: black;
+  }
